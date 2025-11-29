@@ -1,29 +1,49 @@
+<<<<<<< HEAD
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+
+# Frontend & Backend Environment Files
+frontend/.env
+frontend/.env.*
+backend/.env
+backend/.env.*
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
 
-.env
+# Testing
+coverage/
 
-//backend
+# Misc
+.cache/
+.temp/
+tmp/
+=======
 .env
+>>>>>>> 8cf0efe50c17ac0faab515a7ac63787acb8cd27d
